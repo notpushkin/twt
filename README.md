@@ -1,7 +1,7 @@
 twt
 ====
 
-**The Whiespace Thing: indentaion-based blocks for any language.**
+**The Whiespace Thing: indentation-based blocks for any language.**
 
 Example:
 
