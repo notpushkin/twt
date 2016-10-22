@@ -19,13 +19,13 @@ becomes:
 
 ```js
 function hello(a) {
-    console.log("Hello, ", a, "!")
+    console.log("Hello, ", a, "!");
 }
 
 class Polygon {
     constructor(height, width) {
-        this.height = height
-        this.width = width
+        this.height = height;
+        this.width = width;
     }
 }
 ```
@@ -43,7 +43,7 @@ type Square struct:
     side float64
 ```
 
-becomes:
+becomes (with `insert_semi=False`):
 
 ```go
 import "math"
