@@ -68,6 +68,8 @@ def twt(lines, insert_semi=True,
                 and all_equal(0, open_braces.values()) \
                 and all_equal(False, open_quotes.values()):
             line += ";"
+        elif line[-1] == "\\":
+            line = line[:-1].rstrip()
 
         yield line
 
