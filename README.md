@@ -57,3 +57,20 @@ type Square struct {
     side float64
 }
 ```
+
+---
+
+Want to put an end to Ruby's `end`s?
+
+```rb
+hash.each_pair do |key, value|:
+  puts "#{key} is #{value}"
+```
+
+becomes (`block_begin="", block_end="end", insert_semi=False`):
+
+```rb
+hash.each_pair do |key, value|
+  puts "#{key} is #{value}"
+end
+```
